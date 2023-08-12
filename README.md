@@ -1,7 +1,7 @@
 # LWC_Chat_GPT_Component
 This is a LWC component built for simple question and answer interaction with OpenAI
 
-The component is fairly straight forward, the only changes that are needed to be made for configuration has to do with changing the API endpoint and the Secret Key in the JS file.  
+The component is fairly straight forward, the only changes that are needed to be made for configuration has to do with changing the API endpoint and the Secret Key in the JS file.  The callout takes place directly through the Javascript, this component has no APEX controller, although the template could be built to support dml edits upon response, etc. 
 
 The component also requires adding 'https://api.openai.com' to the Remote Site Settings of the target org. 
 
